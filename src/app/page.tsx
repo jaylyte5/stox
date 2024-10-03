@@ -3,6 +3,7 @@
 import NavBar from "@/components/NavBar";
 import { useEffect } from "react";
 import { motion } from "framer-motion";
+import { SignInButton, SignUpButton } from "@clerk/nextjs";
 
 export default function Home() {
   useEffect(() => {
@@ -37,8 +38,14 @@ export default function Home() {
             <p className="text-2xl text-white">we let you look at your stocks or something, who cares!</p>
           </div>
           <div className="flex  flex-col gap-2">
-            <button className='btn btn-primary border-none text-white text-xl font-bold'>Login</button>
-            <button className="btn border-none text-xl font-bold">Sign-up</button>
+
+            <SignInButton>
+              <button className='btn btn-primary border-none text-white text-xl font-bold'>Login</button>
+            </SignInButton>
+
+            <SignUpButton>
+              <button className="btn border-none text-xl font-bold">Sign-up</button>
+            </SignUpButton>
           </div>
         </div>
 
