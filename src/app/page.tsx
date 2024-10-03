@@ -33,17 +33,16 @@ export default function Home() {
       >
         <div className="flex flex-col gap-4">
           <div>
-            <h1 className="text-9xl font-bold text-left">stoX</h1>
-            <p className="text-2xl">we let you look at your stocks or something, who cares!</p>
+            <h1 className="text-9xl font-bold text-left text-white">stoX.</h1>
+            <p className="text-2xl text-white">we let you look at your stocks or something, who cares!</p>
           </div>
           <div className="flex  flex-col gap-2">
             <button className='btn btn-primary border-none text-white text-xl font-bold'>Login</button>
-            <button className="btn border-none text-white text-xl font-bold">Sign-up</button>
+            <button className="btn border-none text-xl font-bold">Sign-up</button>
           </div>
         </div>
 
       </motion.div>
-
 
       <motion.img
         src="/giphy.gif"
