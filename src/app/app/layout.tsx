@@ -54,7 +54,7 @@ export default function RootLayout({
                             </a>
                         </ul >
                     </div >
-                    <div className="flex items-center justify-center">
+                    <div className="flex justify-center p-20">
                         {children}
                     </div>
                 </div>

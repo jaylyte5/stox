@@ -1,5 +1,9 @@
+import WatchList from "@/components/Widgets/WatchList";
+
 export default function Dashboard() {
     return (
-        <h1>There will be stuff here one day</h1>
+        <div>
+            <WatchList />
+        </div>
     )
 }
