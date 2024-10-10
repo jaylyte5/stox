@@ -19,8 +19,10 @@
     "next": "14.2.8",
     "react": "^18",
     "react-dom": "^18",
+    "swapy": "^0.4.1",
     "tailwind-merge": "^2.5.2",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "theme-change": "^2.5.0"
   },
   "devDependencies": {
     "@iconify/react": "^5.0.2",
