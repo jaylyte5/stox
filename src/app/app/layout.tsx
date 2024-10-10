@@ -1,11 +1,24 @@
+'use client';
+
 import { UserButton } from "@clerk/nextjs"
 import { Home, Info, Newspaper, Settings, Users } from "lucide-react"
+import { useEffect } from "react";
+import { themeChange } from "theme-change";
 
 export default function RootLayout({
     children,
 }: {
     children: React.ReactNode
 }) {
+
+    useEffect(() => {
+
+        themeChange(false)
+        // 👆 false parameter is required for react project
+
+    }, [])
+
+
     return (
         // <ClerkProvider>
         <html lang="en" >

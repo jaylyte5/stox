@@ -9,8 +9,6 @@ export default function SettingsPage() {
         themeChange(false)
         // 👆 false parameter is required for react project
 
-
-
     }, [])
 
     return (
