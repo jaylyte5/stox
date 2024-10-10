@@ -1,5 +1,7 @@
+import NavBar from "@/components/NavBar";
+
 export default function Dashboard() {
     return (
-        <h1>welcome home!</h1>
+        <div style={{ width: '100%' }}> <NavBar/> </div>
     )
 }
